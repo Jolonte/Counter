@@ -1,0 +1,44 @@
+// variables
+$sm-device: 320px;
+$device: 576px;
+$md-device: 768px;
+$lg-device: 992px;
+$xlg-device: 1200px;
+$xx-device: 1400px;
+
+// mixins
+@mixin mobile {
+    @media (min-width: #{$sm-device}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$device}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: #{$md-device}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$lg-device}) {
+        @content;
+    }
+}
+
+@mixin lg-desktop {
+    @media (min-width: #{$xlg-device}) {
+        @content;
+    }
+}
+
+@mixin xx-desktop {
+    @media (min-width: #{$xx-device}) {
+        @content;
+    }
+}

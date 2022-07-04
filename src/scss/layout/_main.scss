@@ -1,0 +1,20 @@
+main {
+  @include flex(auto, column, wrap);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main {
+  &__buttons {
+    @include flex(auto, column, wrap);
+    max-height: 10rem;
+    gap: 1rem;
+
+    @include laptop {
+      @include flex(auto, row, wrap);
+      max-height: 3rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+button {
+  @include flex(auto, row, wrap);
+  min-width: 10rem;
+  max-height: 3rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  transition: background 0.5s;
+  border: 0.1rem solid $BurntSienna;
+
+  &:hover {
+    background: $MaizeCrayola;
+  }
+
+  &:focus {
+    background: $SandyBrown;
+  }
+}
