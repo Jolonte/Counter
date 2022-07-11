@@ -2,6 +2,10 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Jolonte/reviewCarousel)
 ![GitHub license](https://img.shields.io/github/license/Jolonte/reviewCarousel)
 
+<p align="center">
+  <img height="400em" src="public/cover.png"
+</p>
+
 # reviewCarousel
 
 This project will give you more practice working with the DOM and you can use this simple counter in other projects like a pomodoro clock.
